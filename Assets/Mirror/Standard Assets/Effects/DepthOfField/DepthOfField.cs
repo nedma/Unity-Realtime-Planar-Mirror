@@ -76,7 +76,7 @@ namespace MStdioDepthOfField
         [Serializable]
         public struct FocusSettings
         { 
-            [Min(0f), Tooltip("Far blur falloff (in world units).")]
+            [UnityEngine.Min(0f), Tooltip("Far blur falloff (in world units).")]
             public float farFalloff;
 
             public static FocusSettings defaultSettings
